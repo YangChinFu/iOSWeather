@@ -12,6 +12,6 @@ struct WeatherCellViewModel {
     let imageName: String
     let day: String
     let description: String
-    
+    let dt: Double
 }
 

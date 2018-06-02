@@ -44,7 +44,7 @@ class WeatherTableViewController: UITableViewController {
             case .value(let forecast):
                 //print(forecast)
                 self.cellViewModels = forecast.list.map {
-                    WeatherCellViewModel(imageName:$0.weather[0].icon,day:$0.dt_txt,description:$0.weather[0].description)
+                    WeatherCellViewModel(imageName:$0.weather[0].icon,day:$0.dt_txt,description:$0.weather[0].description,dt:$0.dt)
                 }
                 DispatchQueue.main.async {
                     
@@ -73,7 +73,7 @@ class WeatherTableViewController: UITableViewController {
                 formatter.dateFormat = "yyyy-MM-dd"
                 let dateStr = formatter.string(from: myNSDate) // string purpose I add here
                 self.cellViewModels =
-                    [WeatherCellViewModel(imageName:current.weather[0].icon,day:dateStr ,description:current.weather[0].description)]
+                    [WeatherCellViewModel(imageName:current.weather[0].icon,day:dateStr ,description:current.weather[0].description,dt:current.dt)]
                 
                 DispatchQueue.main.async {
                     

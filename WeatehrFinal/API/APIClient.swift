@@ -38,7 +38,6 @@ extension APIClient{
                 completion(.error(.badResponse))
                 return
             }
-            print(String(bytes:data!, encoding: .utf8) )
             guard let value = try? JSONDecoder().decode(V.self, from: data!) else{
                 completion(.error(.jsonDecoder))
                 return
