@@ -90,7 +90,7 @@ struct Current: Codable {
 }
 
 struct CurrentMain: Codable {
-        let temp: Double
+        let temp: Float
         let pressure: Double
         let humidity: Double
         let temp_min: Double

@@ -19,6 +19,7 @@
 		875FECB320C1725C0087E947 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875FECB220C1725C0087E947 /* EndPoint.swift */; };
 		875FECB520C175F70087E947 /* WeatherAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875FECB420C175F70087E947 /* WeatherAPIClient.swift */; };
 		875FECB720C195610087E947 /* WeatherCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875FECB620C195610087E947 /* WeatherCellViewModel.swift */; };
+		87C0CE6A20C2C167008BEB85 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0CE6920C2C167008BEB85 /* WeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		875FECB220C1725C0087E947 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		875FECB420C175F70087E947 /* WeatherAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIClient.swift; sourceTree = "<group>"; };
 		875FECB620C195610087E947 /* WeatherCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellViewModel.swift; sourceTree = "<group>"; };
+		87C0CE6920C2C167008BEB85 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				875FECAB20C0FD930087E947 /* WeatherTableViewController.swift */,
+				87C0CE6920C2C167008BEB85 /* WeatherViewController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				875FECAF20C0FD930087E947 /* Weather.swift in Sources */,
 				875FECB320C1725C0087E947 /* EndPoint.swift in Sources */,
 				875FECB720C195610087E947 /* WeatherCellViewModel.swift in Sources */,
+				87C0CE6A20C2C167008BEB85 /* WeatherViewController.swift in Sources */,
 				875FEC7C20C0FC8E0087E947 /* AppDelegate.swift in Sources */,
 				875FECB120C0FD930087E947 /* APIClient.swift in Sources */,
 			);
