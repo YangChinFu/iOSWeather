@@ -71,7 +71,6 @@
         <!--Weather-->
         <scene sceneID="krP-y4-ivo">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aOl-Aq-7SI" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="a8h-eg-SYt" customClass="WeatherViewController" customModule="WeatehrFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q3S-Qk-NMu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -149,6 +148,7 @@
                         <outlet property="weatherImg" destination="Izu-vI-TPU" id="Iz4-XZ-ns4"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aOl-Aq-7SI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="740.625" y="786.97183098591552"/>
         </scene>
@@ -158,7 +158,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnSwipe="YES" id="pu0-ea-Sfi" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="U5X-WH-83J">
-                        <rect key="frame" x="0.0" y="20" width="320" height="96"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="93"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
